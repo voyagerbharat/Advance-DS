@@ -11,7 +11,7 @@ bool PowofTwo(int n)
 }
 int main()
 {
-    cout << PowofTwo(5);
+    cout << PowofTwo(3);
     cout << endl;
     cout << PowofTwo(32);
 }
