@@ -4,13 +4,14 @@
 using namespace std;
 bool PowofTwo(int n)
 {
-    if(n&(n-1)==0)
-    return true;
+    if ((n & (n - 1)) == 0)
+        return true;
     else
-    return false;
+        return false;
 }
 int main()
 {
-    cout<<PowofTwo(5);
-    cout<<PowofTwo(32);
+    cout << PowofTwo(5);
+    cout << endl;
+    cout << PowofTwo(32);
 }
